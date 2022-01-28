@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.cifra.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    
+
+
+    <title>Cifra de Cesar</title>
+
+</head>
+<body>
+    
+    <!--Cabecalho-->
+    <header class="header">
+        <div class="container1">
+            <h1 class="title"><a href="index.html">
+                Cifra de César
+                </a>
+            </h1>
+        </div>
+
+    </header>
+
+    <!--Info-->
+
+    <section class="info-section">
+        <div class="info-container">
+            <h2 class="info">Digite uma palavra ou frase</h2>
+        </div>
+    </section>
+
+    
+    <!--Principal-->
+    
+    <!--Botão de Ajuda e dicas-->
+    <section class="container2">
+
+        <div class="ajuda">
+            <h1 class="bloco-ajuda">Dicas</h1>
+        </div>
+        <nav class="opcoes-de-ajuda hidden">
+            
+            <button class="close-overlay">&#10006;</button>
+
+            <ol class="opcoes">
+                <li>Codificar (+) => Anda letras</li>
+                <li>Decodificar (-) => Retroscede letras</li>
+                <li>Símbolos e números serão descartados!</li>
+            </ol>
+        </nav>
+    </section>
+
+    <!--Inputs-->
+    <section class="main-cesar">
+
+    <section class="inputs-texto">
+
+        <div class="input-texto">
+            <textarea class="textarea1" id="inputText" placeholder="Digite alguma coisa..." ></textarea>
+        </div>
+
+        <div class="output-texto">
+            <textarea class="textarea2" id="outputText" placeholder="O resultado aparecerá aqui"></textarea>
+        </div>
+
+    </section>
+
+    <section class="botoes">
+
+        <div class="input-options">
+
+            <div class="botao-number-container">
+                 <input type="number" max="50" min="0" id="numero" placeholder="0">
+            </div>
+        
+
+            <div class="botoes-de-escolha">
+
+                <button class="botao" id="criptografa">Codificar</button>
+                <button class="botao" id="descriptografa">Decodificar</button>
+
+            </div>
+
+            <button class="botao" id="limpa">Limpar</button>
+        </div>
+
+    </section>  
+
+
+
+    </section>
+    <div class="overlay hidden"></div>
+    <script src="cesarcode.js"></script>
+    <script src="cesardecode.js"></script>
+    <script src="dynamics.cesar.js"></script>
+    
+</body>
+</html>

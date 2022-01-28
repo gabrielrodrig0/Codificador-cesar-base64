@@ -1,0 +1,14 @@
+/*Classe que ativa o background do cesar*/
+
+.background-cesar {
+
+    background-image: url("images.background/wooden-cubes-473703.jpg");
+    background-size: cover;
+}
+
+/*Classe que ativa o background da base64*/
+
+.background-base64{
+    background-image: url("images.background/binary-2728117.jpg");
+    background-size: cover;
+}

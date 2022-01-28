@@ -1,0 +1,161 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /*Fonte trebuchet*/
+    font-family: Helvetica;
+}
+body {
+    background-image: url("images.background/background-5035258.jpg");
+    background-size: cover;
+}
+
+/*Cabeçalho*/
+
+.title {
+    
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+    top: 0px;
+    padding: 30px;
+    font-size: 5rem;
+    
+}
+.title a {
+    font-family: 'Bangers', cursive;
+    font-weight: lighter;
+    text-decoration: none;
+    color:white;
+}
+
+/*description*/
+.info-container {
+    padding: 1rem;
+    margin-bottom: 40px;
+    
+}
+.info {
+    font-family: 'Bangers', cursive;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    text-shadow: 1px 1px  black;
+    font-size: 2rem;
+}
+
+/*Main*/
+
+.principal {
+    display: flex;
+    gap: 40px;
+    justify-content:center ;
+    flex-wrap: wrap;
+    
+}
+
+.cesar {
+    position: relative;
+    background-image: url("images.cesar/realcrifra_.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    border-radius: 10px;
+    border: 5px solid burlywood;
+    width: 17em;
+    height: 17em;
+    cursor: pointer;
+    
+}
+
+.content-cesar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%,-50%);
+}
+
+.cesar-nome {
+    font-family: 'Bangers', cursive;
+    font-weight: lighter;
+    text-align: center;
+    opacity: 0;
+    padding: 100px;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.base64 {
+    position: relative;
+    background-image: url("images.code64/64foto.jpg");
+    border-radius: 10px;
+    border: 5px solid rgb(36, 109, 99);
+    background-size: cover;
+    width: 17em;
+    height: 17em;
+    cursor: pointer;
+    margin-bottom: 3em;
+
+}
+
+.content-base64{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.base64-nome{
+
+    font-family: 'Bangers', cursive;
+    font-weight: lighter;
+    text-align: center;
+    opacity: 0;
+    padding: 100px;
+    color: white;
+    text-shadow: 1px 1px black;
+    
+}
+
+
+/*hovers*/
+
+    .cesar-nome:hover {
+        text-align: center;
+        opacity: 1;
+        transition: 1s ;
+    }
+
+    .base64-nome:hover {
+
+        text-align: center;
+        opacity: 1;
+        transition: 1s ;
+    
+    }
+
+
+/*Responsividade*/
+
+@media screen and (max-width:580px){
+    .title {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:460px){
+    .title {
+        font-size: 4rem;
+    }
+    .info {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:300px){
+    .title {
+        font-size: 3rem;
+    }
+}

@@ -1,0 +1,77 @@
+body {
+    background-image: url("images.background/binary-2728117.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/*Configurações do Css do index*/
+
+.title a {
+    font-family: 'Bangers', cursive;
+    font-weight: lighter;
+}
+
+.info-container {
+    padding: 1rem;
+    margin-bottom: 0px;
+}
+
+.info {
+    font-family: 'Bangers', cursive;
+    font-weight: lighter;
+    color: #fff
+}
+
+/*Parte do TextArea*/
+
+.inputs-texto {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+}
+
+.textarea1 {
+    resize: none;
+    border: 2px solid #3A200Baa;
+    border-radius: 3px;
+    width: 250px;
+    background-color: #ffffffbb;
+    height: 50vh;
+    border: none;
+}
+
+.textarea2 {
+    resize: none;
+    border-radius: 3px;
+    width: 250px;
+    background-color: rgb(27, 26, 26);
+    height: 50vh;
+    color: white;
+}
+
+.input-options {
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+
+.botao {
+    padding: 5px;
+    border-radius: 4px;
+    border: 2px solid rgb(27, 26, 26);
+    cursor: pointer;
+}
+.botao:hover{
+    background-color: rgb(27, 26, 26);
+    color: white;
+    transition: 0.3s;
+}
+.botoes {
+    margin-bottom:100px;
+}
+
